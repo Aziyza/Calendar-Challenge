@@ -12,6 +12,13 @@
 		04AA0E5A24996B3B00885AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA0E5824996B3B00885AA8 /* Main.storyboard */; };
 		04AA0E5C24996B3B00885AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA0E5B24996B3B00885AA8 /* Assets.xcassets */; };
 		04AA0E5F24996B3B00885AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA0E5D24996B3B00885AA8 /* LaunchScreen.storyboard */; };
+		04AA0E68249A145800885AA8 /* MonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA0E66249A145800885AA8 /* MonthCell.swift */; };
+		04AA0E69249A145800885AA8 /* MonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AA0E67249A145800885AA8 /* MonthCell.xib */; };
+		04AA0E6C249A35AC00885AA8 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA0E6A249A35AC00885AA8 /* CalendarCell.swift */; };
+		04AA0E6D249A35AC00885AA8 /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AA0E6B249A35AC00885AA8 /* CalendarCell.xib */; };
+		04AA0E70249A3DE000885AA8 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA0E6E249A3DE000885AA8 /* DayCell.swift */; };
+		04AA0E71249A3DE000885AA8 /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AA0E6F249A3DE000885AA8 /* DayCell.xib */; };
+		04AA0E73249A88EA00885AA8 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA0E72249A88EA00885AA8 /* CalendarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		04AA0E5B24996B3B00885AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AA0E5E24996B3B00885AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AA0E6024996B3B00885AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA0E66249A145800885AA8 /* MonthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCell.swift; sourceTree = "<group>"; };
+		04AA0E67249A145800885AA8 /* MonthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthCell.xib; sourceTree = "<group>"; };
+		04AA0E6A249A35AC00885AA8 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		04AA0E6B249A35AC00885AA8 /* CalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		04AA0E6E249A3DE000885AA8 /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		04AA0E6F249A3DE000885AA8 /* DayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		04AA0E72249A88EA00885AA8 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				04AA0E5B24996B3B00885AA8 /* Assets.xcassets */,
 				04AA0E5D24996B3B00885AA8 /* LaunchScreen.storyboard */,
 				04AA0E6024996B3B00885AA8 /* Info.plist */,
+				04AA0E66249A145800885AA8 /* MonthCell.swift */,
+				04AA0E67249A145800885AA8 /* MonthCell.xib */,
+				04AA0E6A249A35AC00885AA8 /* CalendarCell.swift */,
+				04AA0E6B249A35AC00885AA8 /* CalendarCell.xib */,
+				04AA0E6E249A3DE000885AA8 /* DayCell.swift */,
+				04AA0E6F249A3DE000885AA8 /* DayCell.xib */,
+				04AA0E72249A88EA00885AA8 /* CalendarModel.swift */,
 			);
 			path = "Calendar-Challenge";
 			sourceTree = "<group>";
@@ -122,9 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AA0E69249A145800885AA8 /* MonthCell.xib in Resources */,
 				04AA0E5F24996B3B00885AA8 /* LaunchScreen.storyboard in Resources */,
 				04AA0E5C24996B3B00885AA8 /* Assets.xcassets in Resources */,
 				04AA0E5A24996B3B00885AA8 /* Main.storyboard in Resources */,
+				04AA0E71249A3DE000885AA8 /* DayCell.xib in Resources */,
+				04AA0E6D249A35AC00885AA8 /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AA0E68249A145800885AA8 /* MonthCell.swift in Sources */,
+				04AA0E73249A88EA00885AA8 /* CalendarModel.swift in Sources */,
 				04AA0E5724996B3B00885AA8 /* ViewController.swift in Sources */,
+				04AA0E70249A3DE000885AA8 /* DayCell.swift in Sources */,
 				04AA0E5324996B3B00885AA8 /* AppDelegate.swift in Sources */,
+				04AA0E6C249A35AC00885AA8 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
